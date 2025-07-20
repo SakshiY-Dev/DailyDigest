@@ -1,9 +1,9 @@
 import { MockNewsApiService } from "./mockNewsApi";
 import { GNewsApiService } from "./gNewsApi";
 
-const API_KEY = "8fd10cd7ac3747fe98a1e700ca3bdf3a"; // Replace with your NewsAPI key
+const API_KEY = ""; // Replace with your NewsAPI key
 const BASE_URL = "https://newsapi.org/v2";
-const GNEWS_API_KEY = "7b102833dcd78c779e917213802d782e"; // Replace with your GNews API key
+const GNEWS_API_KEY = ""; // Replace with your GNews API key
 
 // Determine environment
 const IS_LOCALHOST =
@@ -14,9 +14,9 @@ const IS_LOCALHOST =
 const USE_GNEWS =
   IS_LOCALHOST &&
   GNEWS_API_KEY &&
-  GNEWS_API_KEY !== "7b102833dcd78c779e917213802d782e";
+  GNEWS_API_KEY !== "Replace with your GNews API key";
 const USE_NEWSAPI =
-  IS_LOCALHOST && API_KEY && API_KEY !== "8fd10cd7ac3747fe98a1e700ca3bdf3a";
+  IS_LOCALHOST && API_KEY && API_KEY !== "Replace with your NewsAPI key";
 const USE_MOCK_DATA = !IS_LOCALHOST; // Use mock when deployed
 
 export class NewsApiService {
