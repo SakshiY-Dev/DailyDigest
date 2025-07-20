@@ -1,12 +1,12 @@
 import { NewsResponse, NewsCategory } from "../types/news";
 
-const API_KEY = "7b102833dcd78c779e917213802d782e"; // Get from https://gnews.io/
+const API_KEY = ""; //Your gnews_API key
 const BASE_URL = "https://gnews.io/api/v4";
 
 // GNews supports CORS, so it works in production
 export class GNewsApiService {
   private static async makeRequest(endpoint: string): Promise<any> {
-    if (!API_KEY || API_KEY === "7b102833dcd78c779e917213802d782e") {
+    if (!API_KEY || API_KEY === "Your gnews_API key") {
       throw new Error("GNews API key not configured");
     }
 
