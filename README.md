@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DailyDigest - Modern News Website
 
 A beautiful, responsive news website built with React, TypeScript, and Tailwind CSS that fetches real-time news from NewsAPI.
@@ -127,3 +128,7 @@ This application is fully configured for deployment to any static hosting servic
 - AWS S3
 
 Just run `npm run build` and deploy the `dist` folder.
+=======
+# DailyDigest
+Daily Digest is a real-time news app that keeps you updated with the latest headlines from trusted sources. With a clean UI and seamless navigation, it delivers news across various categories like tech, business, sports, and entertainment. Powered by APIs, it ensures fresh and accurate updates anytime, anywhere. Stay informed, stay ahead! 🚀
+>>>>>>> dd04a47dd9172fd2d70349d82c2c524b75db661b
